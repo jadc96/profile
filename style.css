@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Serif+Pro:wght@200&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Source+Serif+Pro:wght@200&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans';
+  color: rgb(60, 60, 60);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  color: #084485;
+  font-family: 'montserrat';
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: 'nunito';
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+img {
+  width : 100px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #0957a9;
+}
+
+.btn-lewagon-link {
+  background-color: #0957a9;
+  border: solid 1px white;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 10px;
+  transition: .2s ease-in-out;
+}
+
+.btn-lewagon-link:hover {
+  background-color: white;
+  border: solid 1px #0957a9;
+  color: #0957a9;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px 70px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+  text-align: center;
+}
+
+.card p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.fa-brands {
+  font-size: 28px;
+  padding: 0 25px;
+  transition: .5s;
+}
+
+.fa-brands:hover {
+  transform: scale(1.8);
+  text-shadow: 5px 5px 5px #5998db;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
